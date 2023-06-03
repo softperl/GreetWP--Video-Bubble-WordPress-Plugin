@@ -40,7 +40,7 @@ function apd_settings_link(array $links)
     return $links;
 }
 
-// Require files
+// Require Files
 
 
 require_once dirname(__FILE__) . '/admin/csf/codestar-framework.php'; // CSF include
