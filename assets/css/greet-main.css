@@ -44,17 +44,17 @@
 .greet_wrapper-resize {
   transform: scale(0.67);
 }
-.greet_wrapper [class*="greet_full-"] {
+.greet_wrapper [class*='greet_full-'] {
   display: none;
 }
-.greet_wrapper [class*="greet_full-"] .greet_media-action {
+.greet_wrapper [class*='greet_full-'] .greet_media-action {
   display: none;
 }
 .greet_wrapper .greet_full-close {
   display: none;
 }
 .greet_wrapper-full {
-  width: 300px;
+  width: 350px;
   height: 500px;
 }
 .greet_wrapper-full video {
@@ -73,7 +73,7 @@
 .greet_wrapper-full.greet_wrapper-resize {
   transform: inherit;
 }
-.greet_wrapper-full [class*="greet_full-"] {
+.greet_wrapper-full [class*='greet_full-'] {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,10 +85,10 @@
   color: #fff;
   transition: all 0.5s;
 }
-.greet_wrapper-full [class*="greet_full-"] i {
+.greet_wrapper-full [class*='greet_full-'] i {
   font-size: 25px;
 }
-.greet_wrapper-full [class*="greet_full-"]:hover {
+.greet_wrapper-full [class*='greet_full-']:hover {
   background-color: #161e2e9a;
 }
 .greet_wrapper-full .greet_full-close {
@@ -109,7 +109,7 @@
   left: 5px;
   position: absolute;
 }
-.greet_wrapper-full .greet_media-action [class*="greet_full-"] {
+.greet_wrapper-full .greet_media-action [class*='greet_full-'] {
   position: unset;
   margin-bottom: 5px;
 }
@@ -162,7 +162,7 @@
   flex-wrap: wrap;
 }
 
-.greet_wrapper-full .greet_change-video [class*="video"] a {
+.greet_wrapper-full .greet_change-video [class*='video'] a {
   background-color: #7432ff;
   transition: 0.3s;
   display: block;
@@ -172,7 +172,7 @@
   font-size: 16px;
   text-decoration: none;
 }
-.greet_wrapper-full .greet_change-video [class*="video"] a:hover {
+.greet_wrapper-full .greet_change-video [class*='video'] a:hover {
   background-color: #161e2e;
 }
 /* change button end */
@@ -192,8 +192,8 @@
     height: 150px;
   }
   .greet_wrapper-full {
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
   }
   /* change button start */
   .greet_wrapper-full .greet_change-video {
@@ -205,11 +205,11 @@
     margin-left: 15px;
     margin-right: 15px;
   }
-  .greet_wrapper-full [class*="greet_full-"] {
+  .greet_wrapper-full [class*='greet_full-'] {
     width: 30px;
     height: 30px;
   }
-  .greet_wrapper-full [class*="greet_full-"] i {
+  .greet_wrapper-full [class*='greet_full-'] i {
     font-size: 16px;
   }
   .greet_wrapper-full .greet_full-play {
@@ -225,7 +225,7 @@
     height: 135px;
   }
   .greet_wrapper-full {
-    width: 200px;
-    height: 350px;
+    width: 300px;
+    height: 420px;
   }
 }

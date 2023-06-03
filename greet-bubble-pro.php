@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name:  Greet Bubble Custom
+Plugin Name:  Greet Bubble Pro
 Plugin URI:   https://themeatelier.net/plugins/greet/
 Description:  Professional video bubble plugin for putting videos on your website in a great and fun way.
-Version:      1.0
+Version:      1.4.0
 Author:       ThemeAtelier
 Author URI:   https://themeatelier.net/
 License:      GPL2
@@ -34,16 +34,17 @@ if (!defined('GREET_DIR_URL'))
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'apd_settings_link');
 function apd_settings_link(array $links)
 {
-    $url = get_admin_url() . "options-general.php?page=greet_settings";
-    $settings_link = '<a href="' .esc_url( $url ). '">' . esc_html__('Settings', 'greet') . '</a>';
+    $url = get_admin_url() . "admin.php?page=greet-options#tab=upload-video";
+    $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'greet') . '</a>';
     $links[] = $settings_link;
     return $links;
 }
 
 // Require files
 
-require_once dirname(__FILE__) . '/admin/class.settings-api.php';
-require_once dirname(__FILE__) . '/admin/greet-settings.php';
-require_once dirname(__FILE__) . '/frontend/greet-main.php';
 
-new Greet_Settings_API_Main();
+require_once dirname(__FILE__) . '/admin/csf/codestar-framework.php'; // CSF include
+require_once dirname(__FILE__) . '/admin/greet-bubble-options.php'; // CSF options
+require_once dirname(__FILE__) . '/admin/greet-metabox-options.php'; // Metabox options
+
+require_once dirname(__FILE__) . '/frontend/greet-main.php';

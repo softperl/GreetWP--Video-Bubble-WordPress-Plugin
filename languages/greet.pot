@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Greet Bubble\n"
+"Project-Id-Version: Greet Bubble Pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-07 13:18+0000\n"
+"POT-Creation-Date: 2023-02-07 11:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -13,58 +13,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
 "X-Domain: greet"
 
-#: admin/greet-settings.php:118
+#: admin/greet-bubble-options.php:44 admin/greet-bubble-options.php:69
+#: admin/greet-bubble-options.php:93
+msgid ""
+"Add button text here. If you don't want to show the button just keep it "
+"blank."
+msgstr ""
+
+#: admin/greet-bubble-options.php:52
+msgid ""
+"Add link for opening as external link on first button click. Remove link if "
+"you want to load second video instead of link."
+msgstr ""
+
+#: admin/greet-bubble-options.php:157
 msgid "Border Color"
 msgstr ""
 
-#: admin/greet-settings.php:106
+#: admin/greet-bubble-options.php:136
 msgid "Bubble position"
 msgstr ""
 
-#: admin/greet-settings.php:119
+#: admin/greet-bubble-options.php:173
+msgid "Button type"
+msgstr ""
+
+#: admin/greet-bubble-options.php:165
+msgid "Buttons bg"
+msgstr ""
+
+#: admin/greet-bubble-options.php:158
 msgid "Change bubble border color here"
 msgstr ""
 
-#: admin/greet-settings.php:97
+#: admin/greet-bubble-options.php:166
+msgid "Change Buttons bg here"
+msgstr ""
+
+#: admin/greet-bubble-options.php:128
 msgid "Change small hi text here"
 msgstr ""
 
-#: admin/greet-settings.php:69
-msgid "Choose mp4 Video"
+#: admin/greet-bubble-options.php:209
+msgid "Export or import to use same settings in different websites."
 msgstr ""
 
-#: admin/greet-settings.php:89
-msgid "Choose ogg Video"
+#: admin/greet-bubble-options.php:51
+msgid "First button link"
 msgstr ""
 
-#: admin/greet-settings.php:79
-msgid "Choose webm Video"
+#: admin/greet-bubble-options.php:43
+msgid "First Button text"
 msgstr ""
 
-#: admin/greet-settings.php:47
-msgid "Greet Apperience"
+#: admin/greet-bubble-options.php:108
+msgid "Fourth video on button click (mp4)"
 msgstr ""
 
 #. Name of the plugin
-msgid "Greet Bubble"
+msgid "Greet Bubble Pro"
 msgstr ""
 
-#: admin/greet-settings.php:30 admin/greet-settings.php:31
-msgid "Greet Video"
-msgstr ""
-
-#: admin/greet-settings.php:43
-msgid "Greet video upload"
-msgstr ""
-
-#: admin/greet-settings.php:96
+#: admin/greet-bubble-options.php:127
 msgid "Hi text Input"
 msgstr ""
 
-#: admin/greet-settings.php:100
+#: admin/greet-bubble-options.php:130
 msgid "Hi 👋"
 msgstr ""
 
@@ -76,26 +93,30 @@ msgstr ""
 msgid "https://themeatelier.net/plugins/greet/"
 msgstr ""
 
-#: admin/greet-settings.php:65
-msgid ""
-"If you do not have a mp4 video you may use this website https://www."
-"freeconvert.com/ to convert your current version of video."
+#: admin/greet-bubble-options.php:61
+msgid "If you add video here the video will play on first button click"
 msgstr ""
 
-#: admin/greet-settings.php:85
+#: admin/greet-bubble-options.php:37
 msgid ""
-"If you do not have a ogg video you may use this link https://www.freeconvert."
-"com/mp4-to-ogg to convert your mp4 video to ogg video."
+"If you do not have a mp4 video you may use <a href=\"http://www.freeconvert."
+"com\" target=\"_blank\">this website</a> to convert your current version of "
+"video."
 msgstr ""
 
-#: admin/greet-settings.php:75
+#: admin/greet-bubble-options.php:18
 msgid ""
-"If you do not have a webm video you may use this link https://www."
-"freeconvert.com/mp4-to-webm to convert your mp4 video to webm video."
+"If you love the plugin don't forgot to give us a rating form your <a "
+"target=\"_blank\" href=\"https://codecanyon.net/downloads\">download page</a>"
+"."
 msgstr ""
 
-#: admin/greet-settings.php:112
-msgid "Left"
+#: admin/greet-bubble-options.php:46
+msgid "Make a booking"
+msgstr ""
+
+#: admin/greet-bubble-options.php:149
+msgid "Pause video when leaving page"
 msgstr ""
 
 #. Description of the plugin
@@ -104,38 +125,86 @@ msgid ""
 "great and fun way."
 msgstr ""
 
-#: admin/greet-settings.php:111
-msgid "Right"
+#: admin/greet-bubble-options.php:76
+msgid ""
+"Put link for opening as external link on second button click. Remove link if "
+"you want to load third video instead of link."
 msgstr ""
 
-#: admin/greet-settings.php:107
+#: admin/greet-bubble-options.php:100
+msgid ""
+"Put link for opening as external link on third button click. Remove link if "
+"you want to load fourth video instead of link"
+msgstr ""
+
+#: admin/greet-bubble-options.php:176
+msgid "Rounded"
+msgstr ""
+
+#: admin/greet-bubble-options.php:75
+msgid "Second button link"
+msgstr ""
+
+#: admin/greet-bubble-options.php:68
+msgid "Second button text"
+msgstr ""
+
+#: admin/greet-bubble-options.php:60
+msgid "Second video on first button click (mp4)"
+msgstr ""
+
+#: admin/greet-bubble-options.php:137
 msgid "Select bubble position you want to show"
 msgstr ""
 
-#: greet-bubble.php:38
+#: admin/greet-bubble-options.php:198
+msgid "Select pages"
+msgstr ""
+
+#: admin/greet-bubble-options.php:192
+msgid "Select select specefic pages to show bubble on specefic page only"
+msgstr ""
+
+#: greet-bubble-pro.php:38
 msgid "Settings"
 msgstr ""
 
-#: admin/greet-settings.php:98
-msgid "Text Input placeholder"
+#: admin/greet-bubble-options.php:175
+msgid "Square"
 msgstr ""
 
 #. Author of the plugin
 msgid "ThemeAtelier"
 msgstr ""
 
-#: admin/greet-settings.php:64
-msgid "Upload mp4 Video"
+#: admin/greet-bubble-options.php:99
+msgid "Third button link"
 msgstr ""
 
-#: admin/greet-settings.php:84
-msgid "Upload ogg Video"
+#: admin/greet-bubble-options.php:92
+msgid "Third button text"
 msgstr ""
 
-#: admin/greet-settings.php:74
-msgid "Upload webm Video"
+#: admin/greet-bubble-options.php:84
+msgid "Third video on button click (mp4)"
 msgstr ""
 
-#: greet-bubble.php:22
+#: admin/greet-bubble-options.php:85
+msgid "This video will play on second button click."
+msgstr ""
+
+#: admin/greet-bubble-options.php:109
+msgid "This video will play on third button click."
+msgstr ""
+
+#: admin/greet-bubble-options.php:150
+msgid "Turn on the option to pause video if they switch browser tab. "
+msgstr ""
+
+#: admin/greet-bubble-options.php:36
+msgid "Upload default Video (mp4)*"
+msgstr ""
+
+#: greet-bubble-pro.php:22
 msgid "You should not access this file directly.!"
 msgstr ""

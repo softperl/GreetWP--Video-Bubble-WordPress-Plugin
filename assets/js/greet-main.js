@@ -20,6 +20,18 @@
       greetFullExpand.addEventListener("click", () => {
         greetVideo.requestFullscreen()
       })
+
+      // Pause video on borwser tab switch
+      if(frontend_scripts.pause_on_switch) {
+      document.addEventListener("visibilitychange", () => {
+        if(document["hidden"]) {
+          greetVideo.pause()
+        } else {
+          greetVideo.play()
+        }
+      })
+    }
+
       // REPLAY GREET
       greetFullReplay.addEventListener("click", () => {
         greetVideo.currentTime = 0;
